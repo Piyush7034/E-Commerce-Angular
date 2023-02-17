@@ -1,0 +1,40 @@
+{
+  "seller": [
+    {
+      "name": "Piyush Shukla",
+      "email": "piyush@seller.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "Shukla Piyush",
+      "email": "shukla@seller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "Dave",
+      "password": "abc@123",
+      "email": "dave@seller.com",
+      "id": 3
+    },
+    {
+      "name": "Peter",
+      "password": "abc@123",
+      "email": "peter@seller.com",
+      "id": 4
+    },
+    {
+      "name": "Bruce",
+      "password": "abc@123",
+      "email": "bruce@seller.com",
+      "id": 5
+    },
+    {
+      "name": "Dennis",
+      "password": "abc@123",
+      "email": "dennis@seller.com",
+      "id": 6
+    }
+  ]
+}
