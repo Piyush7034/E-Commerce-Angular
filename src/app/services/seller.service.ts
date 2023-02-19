@@ -48,7 +48,8 @@ export class SellerService {
     .subscribe((result: any) => {
       console.warn(result);
       if(result && result.body && result.body.length) {
-        localStorage.setItem('seller', JSON.stringify(result.body))
+        this.isSellerLoggedIn.next(true);
+        localStorage.setItem('seller', JSON.stringify(result.body));
         this.router.navigate(['seller-home']);
       } else {
         console.warn("Login Failed!");
