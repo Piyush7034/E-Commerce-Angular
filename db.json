@@ -53,5 +53,19 @@
       "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m40-1.jpg",
       "id": 2
     }
+  ],
+  "users": [
+    {
+      "name": "Piyush",
+      "email": "piyush@user.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "Bruce",
+      "email": "bruce@user.com",
+      "password": "abc@123",
+      "id": 2
+    }
   ]
 }

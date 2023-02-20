@@ -16,14 +16,15 @@
     padding: 0;
 }
 
-.nav li {
+.nav ul li {
     padding-left: 15px;
     padding-top: 15px;
 }
 
-.nav li {
+.nav ul a {
     text-decoration: none;
     color: blueviolet;
+    cursor: pointer;
 }
 
 .nav .nav-search input {
@@ -54,7 +55,7 @@ h1 a {
     text-decoration: none;
 }
 
-.suggested-result {
+.suggested-search {
     position: absolute;
     display: list-item !important;
     z-index: 10;
@@ -64,12 +65,12 @@ h1 a {
     border: 1px solid #ddd;
 }
 
-.suggested-result li {
+.suggested-search li {
     border: 1px solid #fff;
     padding: 5px;
 }
 
-.suggested-result li a {
+.suggested-search li a {
     cursor: pointer;
     color: blueviolet;
 }
