@@ -25,7 +25,7 @@ export class UserAuthComponent implements OnInit {
     this.user.invalidUserAuth
     .subscribe((result) => {
       if(result) {
-        this.authError = "Please ente valid user details!"
+        this.authError = "Please enter valid user details!"
       }
     });
   }
